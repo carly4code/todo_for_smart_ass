@@ -1,0 +1,41 @@
+#root {
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 2rem;
+  /* height: 100vh; */
+  overflow: hidden;
+}
+
+.heading{
+  font-size: 2em;
+  padding-inline: 8px;
+}
+
+.wrapper{
+  text-align: center;
+}
+
+.todos__heading{
+  color: #a73535;
+  font-weight: 700;
+}
+.todos_input{
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto;
+  column-gap: 2rem;
+}
+.todos_input button{
+  max-width: 8rem;
+  background-color: #cc4545;
+}
+
+.MuiList-root .todo_item{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-block: 14px;
+}
+
+
+.MuiListItemIcon-root button{
+  color: #ff7d7d;
+}
